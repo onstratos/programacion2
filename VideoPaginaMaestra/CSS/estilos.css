@@ -1,0 +1,27 @@
+﻿body {
+    background-color: #0094ff;
+    padding: 10px;
+}
+
+h2 {
+    font-size: small;
+    color: mediumaquamarine;
+    text-align: center;
+}
+
+.contenedor {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 220px;
+    width: 70%;
+}
+
+.cuerpo {
+    padding: 15px;
+}
+
+#nombre {
+    font-size: x-large;
+    color: #808080;
+}

@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="d-flex" id="wrapper">
+
+            <!-- Sidebar -->
+            <div class="bg-light border-right" id="sidebar-wrapper">
+                <div class="sidebar-heading">18 Ejercicios</div>
+                <div class="list-group list-group-flush">
+                    <a href="SerieUlam.aspx" class="list-group-item list-group-item-action bg-light">Serie de Ulam</a>
+                    <a href="MinimoComunMultiplo.aspx" class="list-group-item list-group-item-action bg-light">Mínimo Común Múltiplo</a>
+                    <a href="NumerosPrimos.aspx" class="list-group-item list-group-item-action bg-light">Números Primos</a>
+                    <a href="MaximoComunDivisor.aspx" class="list-group-item list-group-item-action bg-light">Máximo Común Divisor</a>
+                    <a href="Bisiesto.aspx" class="list-group-item list-group-item-action bg-light">Año bisiesto</a>
+                    <a href="Encode.aspx" class="list-group-item list-group-item-action bg-light">Codificar y decodificar cadenas</a>
+                    <a href="FrecuenciaCardiaca.aspx" class="list-group-item list-group-item-action bg-light">Frecuencia cardíaca</a>
+                    <a href="Divisores.aspx" class="list-group-item list-group-item-action bg-light">Divisores</a>
+                    <a href="NumeroPerfecto.aspx" class="list-group-item list-group-item-action bg-light">Numero Perfecto</a>
+                    <a href="TablasDeMultiplicar.aspx" class="list-group-item list-group-item-action bg-light">Tablas de multiplicar</a>
+                    <a href="TablaConversion.aspx" class="list-group-item list-group-item-action bg-light">Tabla de conversión Libra-Kilogramo</a>
+                    <a href="Fibonacci.aspx" class="list-group-item list-group-item-action bg-light">Fibonacci</a>
+                    <a href="PalabrasPalindromas.aspx" class="list-group-item list-group-item-action bg-light">Palabras palíndromas</a>
+                    <a href="DistanciaKm.aspx" class="list-group-item list-group-item-action bg-light">Distancia en Km.</a>
+                    <a href="DistanciaKmMillas.aspx" class="list-group-item list-group-item-action bg-light">Distancia en Km-millas</a>
+                </div>
+            </div>
+            <!-- /#sidebar-wrapper -->
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
+
+        </div>
+        <!-- /#wrapper -->
+    </form>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+  </script>
+</body>
+</html>

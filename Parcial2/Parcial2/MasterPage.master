@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Umbrella Corp</title>
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=dXLINAspAsYIBs6ZsrmSNzD-VaXqFNfHC5eh4bnNM5IdHq9ChtmX_xZAdAUqr7gEk1plB7-N1gkQwLPFXQe3T9ik-wdIgCsL_3Dbd2q9V8sv5YdqKIAiTzbIFCbesLSi" charset="UTF-8"></script>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <!-- Fixed navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="#">Umbrella Corp.</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Default.aspx">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="RegistroUsuarios.aspx">Registro de usuarios</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Transacciones.aspx">Transacciones</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="AcercaDe.aspx">Acerca de</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Begin page content -->
+        <main role="main" class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+            </asp:ContentPlaceHolder>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12"><span class="text-muted">&#169;Isaí Jonathan Rodríguez Cruz</span></div>
+                    <div class="col-12"><span class="text-muted">Carnet: 2946252012</span></div>
+                    <div class="col-12"><span class="text-muted">Ingeniería en Sistemas y Computación</span></div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+        <script src="../../assets/js/vendor/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </form>
+</body>
+</html>

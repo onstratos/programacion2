@@ -1,0 +1,7 @@
+C:\programacion_2_practicas\ejercicios master page\ejercicio021\ejercicio021\bin\ejercicio021.dll.config
+C:\programacion_2_practicas\ejercicios master page\ejercicio021\ejercicio021\bin\ejercicio021.dll
+C:\programacion_2_practicas\ejercicios master page\ejercicio021\ejercicio021\bin\ejercicio021.pdb
+C:\programacion_2_practicas\ejercicios master page\ejercicio021\ejercicio021\obj\Debug\ejercicio021.csprojAssemblyReference.cache
+C:\programacion_2_practicas\ejercicios master page\ejercicio021\ejercicio021\obj\Debug\ejercicio021.csproj.CoreCompileInputs.cache
+C:\programacion_2_practicas\ejercicios master page\ejercicio021\ejercicio021\obj\Debug\ejercicio021.dll
+C:\programacion_2_practicas\ejercicios master page\ejercicio021\ejercicio021\obj\Debug\ejercicio021.pdb

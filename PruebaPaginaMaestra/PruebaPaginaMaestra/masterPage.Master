@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="PruebaPaginaMaestra.masterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+    <style type="text/css">
+        tr {
+            width: 100%;
+        }
+
+        #encabezado {
+            width: 10%;
+            background-color: skyblue;
+        }
+
+        #menu {
+            width: 25%;
+            background-color: lightgreen;
+        }
+
+        #navegacion {
+            width: 25%;
+            background-color: lightgreen;
+        }
+
+        #principal {
+            width: 75%;
+            background-color: mistyrose;
+        }
+
+        #pie {
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <table>
+                    <tr>
+                        <td id="encabezado">Encabezado</td>
+                        <td id="menu">Menú</td>
+                    </tr>
+                    <tr>
+                        <td id="navegacion">Navegación</td>
+                        <td id="principal">Región principal</td>
+                    </tr>
+                    <tr>
+                        <td id="pie">Pie de página</td>
+                    </tr>
+                </table>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
